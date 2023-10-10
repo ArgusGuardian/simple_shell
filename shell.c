@@ -1,5 +1,8 @@
 #include "shell.h"
-
+/**
+ *main - main function for the simple shell
+ *Return: always 0
+ */
 int main(void)
 {
 	char *input = NULL, **args;
