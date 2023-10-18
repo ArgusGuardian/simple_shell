@@ -30,6 +30,8 @@ int check_path(char **args);
 /* ARGS2.C */
 void check_exit(char ***args, char **input, int index);
 void exit_message(char ***args, char **input, int *index);
+int check_digit(char *str);
+int check_letter(char *str);
 
 /* EXECUTION.C */
 int execution(char **args, char *input);
